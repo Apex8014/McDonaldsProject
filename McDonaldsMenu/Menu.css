@@ -1,0 +1,32 @@
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+    border: 5px solid black;
+    padding: 1rem 1rem;
+    vertical-align: top;
+    max-width: 50%;
+}
+header {
+    text-align: center;
+}
+.topBarRight {
+    margin-left: 80%;
+    margin-bottom: 40px;
+    background-color: rgb(255, 208, 0);
+    align-items: right;
+    border: none;
+    border-radius: 10px;
+    min-width: 100;
+    min-height: 50;
+    vertical-align: middle;
+}
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.topBar {
+    border: 1px solid grey;
+}
